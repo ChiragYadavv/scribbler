@@ -1,0 +1,82 @@
+#head {
+    font-family: 'Montez', cursive;
+    font-size: 35px;
+    top: 6px;
+    left: 6px;
+    color: blue;
+}
+#sub-head{
+    font-family: 'Ubuntu mono' , cursive;
+    font-size: medium;
+    color: black;
+}
+.a{
+    float: right;
+}
+.Top-right{
+    background-color:#0000ff;
+    color:white;
+    width:90px;
+    padding:7px 14px;
+    /* border: solid 1px white;
+     */
+     border-color: white;
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+.center{
+    padding:9px 25px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    background-color:#cfb53b;
+    border-color: white;
+  }
+
+  .modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body label{
+    margin-top: 15px;
+}
+label{
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: large;
+}
+input{
+    background-color: gainsboro;
+    border: none;
+    padding: 8px;
+}
+#SignUp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#SignIn{
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+}
+.text-center{
+    padding: 5px;
+    font-family: 'Josefin sans';
+}
+.calling{
+    color: blue;
+}
+
+#allposts{
+color: black;
+}
