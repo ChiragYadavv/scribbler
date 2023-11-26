@@ -2,14 +2,13 @@
 <html>
 
 <head>
-    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Font Awesome, bootstrap file here -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-    <link rel="stylesheet"
-          href=
-"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--  TODO: Include Bootstrap and AJAX scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- TODO: Include Google Fonts file here -->
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/common.css">
@@ -23,7 +22,7 @@
           <button type="button" class="Top-right" data-toggle="modal" data-target="#SignUpCenter"> Sign Up</button>
           <button type="button" class="Top-right" data-toggle="modal" data-target="#SignInCenter">Sign In </button>
         </span>
-      </header>
+    </header>
       <div id="main-head">
       <div class="header">
         <p id="head">ScriBBler</p>
@@ -39,23 +38,23 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h3 class="modal-title" id="SignUpTitle">Get Started</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"> &times;</span>
-                </button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"> &times;</span>
+                    </button>
               </div>
-              <div class="modal-body">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="" placeholder="Enter your name" required>
-                <label for="username">Username</label>
-                <input type="text" name="username" id="" placeholder="Enter your username" required>
-                <label for="password1">Password</label>
-                <input type="password" name="password1" id="" placeholder="Enter your password" required>
-                <label for="confirm">Confirm Password</label>
-                <input type="password" name="confirm" id="" placeholder="Re-enter your password" required>
-              </div>
-              <div class="modal-footer">
-                <button type="submit" class="btn btn-success" id="SignUp">Sign Up</button>
-              </div>
+                  <div class="modal-body">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="" placeholder="Enter your name" required>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="" placeholder="Enter your username" required>
+                        <label for="password1">Password</label>
+                        <input type="password" name="password1" id="" placeholder="Enter your password" required>
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" name="confirm" id="" placeholder="Re-enter your password" required>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-success" id="SignUp">Sign Up</button>
+                  </div>
             </div>
           </div>
         </div>
@@ -90,8 +89,6 @@
       </div>
       <!--Sign In Modal ends here-->
 
-    <!-- ATTENTION: The HTML code for the list of posts has been given to you. You can feel free to add/delete/modify this code. You need to write the proper CSS and JavaScript code corresponding to this page so that the result looks like the screenshots given to you in the Project Statement. -->
-
     <!-- list of all posts starts here -->
     <div class="post-container">
 
@@ -99,11 +96,8 @@
         
         <div class="side-container">
                 <h2>Srishti Gupta</h2>
-
             <div class="post-content">
-
                     <h4>‘let’ me be a ‘const’(ant), not a ‘var’(iable)!
-
                     <span class="cross">
                         <!-- TODO: Include Font Awesome icon for delete icon here -->
                         <i class='fa fa-trash' data-toggle="modal" data-target="#CanWeDelete"></i>
@@ -111,7 +105,6 @@
                     </h4>
                 
                     <p >Since JavaScript does not have any type-checking, either of these keywords can be used to declare a variable of any type (datatype) in JavaScript. Though all the three keywords are used for the same purpose, they are different.</p>
-
                 <span class="icons">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
                     <a href="../html/post.html" style="color: black;"> <i class="fa fa-ellipsis-h fa-lg"
@@ -124,7 +117,6 @@
         <!-- post 2 starts here -->
         <div class="side-container">
                 <h2>Colby Fayock</h2>
-
             <div class="post-content">
                     <h4>What is linting and how can it save you time?
                     <span>
@@ -132,6 +124,7 @@
                         <i class='fa fa-trash' data-toggle="modal" data-target="#CanWeDelete"></i>
                     </span>
                 </h4>
+                
                 <p>One of the biggest challenges in software development is time. It’s something we can’t easily get more of, but linting can help us make the most out of the time we have.</p>
                 <span class="icons">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -152,7 +145,7 @@
                         <i class='fa fa-trash' data-toggle="modal" data-target="#CanWeDelete"></i>
                     </span>
                     </h4>
-                
+                    
                 <p>If you're a developer with a Twitter account, you've already seen everyone and their cat start a blog, YouTube channel, or Patreon. We all want to become stars, or at the very least, a recognizable name in the industry.</p>
                 <span class="icons">
                     <!-- TODO: Include Font Awesome icon for horizontal ellipsis icon here -->
@@ -166,7 +159,6 @@
         <!-- post 4 starts here -->
         <div class="side-container" id="">
                 <h2>Cedd Burge</h2>
-            
                 <div class="post-content">
                     <h4>How to write easily describable code
                     <span >
@@ -174,7 +166,7 @@
                         <i class='fa fa-trash' data-toggle="modal" data-target="#CanWeDelete"></i>
                     </span>
                     </h4>
-                
+                    
                 <p>When code is not describable using words, most people have to do some mental mapping to turn it in to words. This wastes mental energy, and you run the risk of getting the mapping wrong. Different people will map to different words, which
                     leads to confusion when discussing the code.</p>
                     <span class="icons">
