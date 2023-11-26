@@ -132,7 +132,11 @@
         </div>
 
         <div>
-           
+            <form class="comment-form">
+                <label for="commentText"></label>
+                <textarea placeholder="Leave a comment..." id="commentText" rows="5" name="Content"></textarea><br>
+                <button type="button" class="add-comment-btn" onClick="addComment()">Comment</button>
+            </form>
 
             <p class="allCommentsHeading">All Comments</p>
             <div id="allCommentsBox">
